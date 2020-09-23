@@ -1,0 +1,15 @@
+#top{height:40px;width:100%; margin-top:0px; position: fixed; background-color: navy; z-index: 100;}
+#menu{height:100%; width:1000px; margin-left: auto; margin-right: auto; }
+
+li > a:after { content: ' »'; } /* Change this in order to change the Dropdown symbol */
+li > a:only-child:after { content: ''; }  
+nav ul li {color:#FFF;padding:10px;list-style: none; float:left;}
+nav ul {padding:0;margin:0;}
+nav ul li a {color:#FFF;padding:10px;text-decoration:none;}
+li a:hover {border-bottom:3px #FFF solid;}	
+nav ul li ul { display:none; } /* Makes the Dropdown menu Hidden by default */
+/* Displayes the dropNav when Hovered over the nav item with the .drop class */
+nav ul li:hover  ul  {z-index:99999;display:list-item !important;margin-top:5px;margin-left:-10px; background-color: navy;}
+nav ul li:hover  ul li {float:none;}
+
+

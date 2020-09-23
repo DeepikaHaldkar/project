@@ -1,0 +1,13 @@
+#userDetail{width:980px;background-color: white;float:left; padding:10px}
+fieldset{padding: 25px; border-radius: 5px;}
+legend{text-align: center;}
+table{width:60%; margin-left: 150px}
+p{
+    display:block; text-align: center;margin: 0px; width:1000px; background-color: brown; float:left; 
+    padding:5px 0 5px 0; font-size: 30px; border-bottom: 2px solid black;
+}
+/* 
+    Created on : Dec 1, 2014, 7:40:00 PM
+    Author     : RAVI
+*/
+

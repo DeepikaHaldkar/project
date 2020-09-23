@@ -1,0 +1,47 @@
+
+body {  margin:0px; background: -moz- linear-gradient(navy,red); background:linear-gradient(navy,burlywood);  }
+
+#holder{padding-top: 42px; width: 1000px; height:100%; margin:0px auto; border-radius: 5px; }
+
+#logo{height:150px; width:inherit; border-radius:5px 5px 0 0; margin-top:0px; background-color: white}
+#logo img{height:inherit; width:250px; border-radius: 5px;}
+
+/*======================================FOOTER======================================*/
+#footer
+{height:20px; width:1000px; text-align: center; background-color: black; color: white; margin-bottom: 0px;
+ border-radius: 0px 0px 5px 5px; float:left; margin-left: auto; margin-right: auto; position: relative;
+}
+/*===================================================================================*/
+
+
+/*======================================CATEGORY LIST======================================*/
+#category{width:200Px; height: auto; background-color: white; border-top-right-radius: 5px; margin-top:5px; float:left;}
+#category p{
+    display:block; text-align: center;margin-top: 0px; width:100%; background-color: brown; top:0px; float:left; 
+    padding:5px 0 5px 0; position: relative; border-top-right-radius: 5px; font-size: 20px; border-bottom: 2px solid black;
+}
+#category ul {width:inherit; padding:0 ;margin:10px; }
+#category ul li {list-style: none; list-style:none;}
+/*===================================================================================*/
+
+
+/*======================================CATEGORY LIST======================================*/
+#questionList
+{
+    height: auto; width:750px;border-top-left-radius: 5px; background-color: white; margin-left: 10px; margin-top:5px;
+    padding:0px 20px ; float:left;
+}
+#questionList p{
+    display:block; text-align: center;margin-top: 0px; width:790px; background-color: brown; top:0px; float:left; 
+    padding:5px 0 5px 0; position: relative; border-top-left-radius: 5px; font-size: 30px; margin-left: -20px; border-bottom: 2px solid black;
+}
+/*===================================================================================*/
+
+
+
+
+/* 
+    Created on : Nov 10, 2014, 9:03:22 PM
+    Author     : RAVI
+*/
+

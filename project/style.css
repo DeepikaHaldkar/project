@@ -1,0 +1,176 @@
+
+body{
+  font-family: "sansita",sans-serif;
+  background-color: #011627;
+  color:#FDFFFC;
+
+}
+h1
+{
+background-color: #342524 ;
+text-align:center;
+font-size:50px;
+margin-top:0px;
+margin-bottom:0px;
+font-family:times new roman;
+color:#C2AE09 ;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: #d40300 ;
+}
+li {
+  float: left;
+font-size:16px;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+a.active{
+background-color: #474637 ;
+}
+.footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#342524 ;
+  color: white;
+  text-align: center;
+}
+
+img
+{
+width:100%;
+height:40%;
+}
+ /* Create two equal columns that floats next to each other */
+  .column {
+           float: left;
+           width: 50%;
+           height:50%;
+           padding:10px;
+          }
+
+   /* Clear floats after the columns */
+    .row:after {
+                content: "";
+                display: table;
+                clear: both;
+                }
+* {
+     box-sizing: border-box;
+    }
+#t1
+{
+ width:900px;
+ background-color:black;
+height:300px;
+}
+#a1
+{
+  margin-top:20px;
+  font-weight: bold;
+  color: #d40300;
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+.d1
+{
+width:500px;
+height:300px;
+margin-left:400px;
+margin-right:400px;
+margin-top:20px;
+margin-bottom:20px;
+border:2px groove lightblue;
+}
+.d2
+{
+width:700px;
+height:400px;
+margin-top:20px;
+margin-bottom:20px;
+border:2px groove lightblue;
+}
+.d3
+{
+  margin-top:20px;
+
+}
+#d3 #head1
+{
+
+text-align:center;
+margin-top:10px;
+font-weight: bold;
+color: #d40300;
+font-family: cursive;
+text-decoration: underline;
+}
+
+#head1
+{
+
+text-align:center;
+margin-top:10px;
+font-weight: bold;
+color: #d40300;
+font-family: cursive;
+text-decoration: underline;
+}
+
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+.form{
+     width: 300px;
+     margin: 0 auto;
+}
+input[type='text'], input[type='email'],
+input[type='password'] {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 10px;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color: #0067ab;
+     text-shadow: rgba(0,0,0,0.24) 0 1px 0;
+     font-size: 16px;
+     box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
+     border: 1px solid #0164a5;
+     border-radius: 2px;
+     margin-top: 10px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: #024978;
+}

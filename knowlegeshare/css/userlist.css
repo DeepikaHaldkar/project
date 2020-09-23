@@ -1,0 +1,13 @@
+#userlist{height:auto; width:495px; margin-top: 10px; background-color: white; float: left; border-radius: 5px 5px 0px 0px}
+#consultantlist{height:auto; width:495px; margin:10px 0px 0px 10px; background-color: white;
+                float: left; border-radius: 5px 5px 0px 0px}
+#userlist table{width:100%; padding: 10px;}
+#consultantlist table{width:100%; padding: 10px;}
+#userlist p{display:block; text-align: center;margin-top: 0px; width:100%; background-color: brown; top:0px; float:left; 
+    padding:5px 0 5px 0; position: relative; border-top-right-radius: 5px; font-size: 20px; border-bottom: 2px solid black;}
+#consultantlist p{display:block; text-align: center;margin-top: 0px; width:100%; background-color: brown; top:0px; float:left; 
+    padding:5px 0 5px 0; position: relative; border-top-left-radius: 5px; font-size: 20px; border-bottom: 2px solid black;}
+th{border-bottom: 2px solid black; border-collapse: collapse; padding: 10px}
+td{padding: 10px 0px 10px 0px}
+
+
